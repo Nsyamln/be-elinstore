@@ -1,0 +1,28 @@
+# Java
+*.class
+*.jar
+*.war
+*.log
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+*.sw?
+*.bak
+*.tmp
+
+# VS Code
+.vscode/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Test reports
+surefire-reports/
