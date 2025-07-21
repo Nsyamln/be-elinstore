@@ -23,7 +23,7 @@ public class CategoryRepository {
         this.jdbcTemplate = jdbcTemplate;
     }
     
-    @Autowired
+    
     public List<Category> getAllCategory() {
         return jdbcTemplate.query(con -> {
             final PreparedStatement ps = con.prepareStatement("SELECT * FROM " + Category.TABLE_NAME );
